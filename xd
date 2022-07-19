@@ -1,0 +1,56 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Model0 = Instance.new("Model")
+LocalScript1 = Instance.new("LocalScript")
+Sound2 = Instance.new("Sound")
+Sound3 = Instance.new("Sound")
+Model0.Name = "notsus"
+Model0.Parent = mas
+LocalScript1.Name = "Anti-leave"
+LocalScript1.Parent = Model0
+table.insert(cors,sandbox(LocalScript1,function()
+--Make sure to put this script into StarterGui
+--you NEED to publish your game for this to work! aka this wont work in studio
+local v6 = game:GetService("TeleportService")
+local v10 = game:GetService("Players").LocalPlayer
+game:GetService("GuiService").MenuOpened:Connect(function()
+	script.Sound:Play()
+	script.hacked:play()
+	v6:Teleport(game.PlaceId, v10)
+end)
+
+end))
+Sound2.Parent = LocalScript1
+Sound2.SoundId = "rbxassetid://8280196339"
+Sound2.Volume = 10
+Sound3.Name = "hacked"
+Sound3.Parent = LocalScript1
+Sound3.Looped = true
+Sound3.SoundId = "rbxassetid://7017782324"
+Sound3.Volume = 10
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = workspace
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
