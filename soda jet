@@ -1,0 +1,1237 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+Model0 = Instance.new("Model")
+Part1 = Instance.new("Part")
+Script2 = Instance.new("Script")
+SpecialMesh3 = Instance.new("SpecialMesh")
+Script4 = Instance.new("Script")
+Model5 = Instance.new("Model")
+Model6 = Instance.new("Model")
+Part7 = Instance.new("Part")
+Weld8 = Instance.new("Weld")
+Weld9 = Instance.new("Weld")
+UnionOperation10 = Instance.new("UnionOperation")
+Sound11 = Instance.new("Sound")
+Weld12 = Instance.new("Weld")
+Part13 = Instance.new("Part")
+Weld14 = Instance.new("Weld")
+Part15 = Instance.new("Part")
+Weld16 = Instance.new("Weld")
+Weld17 = Instance.new("Weld")
+UnionOperation18 = Instance.new("UnionOperation")
+ManualWeld19 = Instance.new("ManualWeld")
+UnionOperation20 = Instance.new("UnionOperation")
+Weld21 = Instance.new("Weld")
+UnionOperation22 = Instance.new("UnionOperation")
+Weld23 = Instance.new("Weld")
+UnionOperation24 = Instance.new("UnionOperation")
+ManualWeld25 = Instance.new("ManualWeld")
+Weld26 = Instance.new("Weld")
+UnionOperation27 = Instance.new("UnionOperation")
+Weld28 = Instance.new("Weld")
+Weld29 = Instance.new("Weld")
+Part30 = Instance.new("Part")
+Weld31 = Instance.new("Weld")
+Weld32 = Instance.new("Weld")
+Part33 = Instance.new("Part")
+BodyPosition34 = Instance.new("BodyPosition")
+BodyGyro35 = Instance.new("BodyGyro")
+Decal36 = Instance.new("Decal")
+SpecialMesh37 = Instance.new("SpecialMesh")
+ManualWeld38 = Instance.new("ManualWeld")
+ManualWeld39 = Instance.new("ManualWeld")
+Part40 = Instance.new("Part")
+ManualWeld41 = Instance.new("ManualWeld")
+Weld42 = Instance.new("Weld")
+UnionOperation43 = Instance.new("UnionOperation")
+Texture44 = Instance.new("Texture")
+Texture45 = Instance.new("Texture")
+Texture46 = Instance.new("Texture")
+Texture47 = Instance.new("Texture")
+ParticleEmitter48 = Instance.new("ParticleEmitter")
+Weld49 = Instance.new("Weld")
+VehicleSeat50 = Instance.new("VehicleSeat")
+Part51 = Instance.new("Part")
+Weld52 = Instance.new("Weld")
+Weld53 = Instance.new("Weld")
+UnionOperation54 = Instance.new("UnionOperation")
+Texture55 = Instance.new("Texture")
+Texture56 = Instance.new("Texture")
+Texture57 = Instance.new("Texture")
+Texture58 = Instance.new("Texture")
+ParticleEmitter59 = Instance.new("ParticleEmitter")
+ManualWeld60 = Instance.new("ManualWeld")
+Weld61 = Instance.new("Weld")
+Part62 = Instance.new("Part")
+Part63 = Instance.new("Part")
+ManualWeld64 = Instance.new("ManualWeld")
+Weld65 = Instance.new("Weld")
+UnionOperation66 = Instance.new("UnionOperation")
+Texture67 = Instance.new("Texture")
+Texture68 = Instance.new("Texture")
+Texture69 = Instance.new("Texture")
+Texture70 = Instance.new("Texture")
+ParticleEmitter71 = Instance.new("ParticleEmitter")
+Weld72 = Instance.new("Weld")
+UnionOperation73 = Instance.new("UnionOperation")
+Texture74 = Instance.new("Texture")
+Texture75 = Instance.new("Texture")
+Texture76 = Instance.new("Texture")
+Texture77 = Instance.new("Texture")
+ParticleEmitter78 = Instance.new("ParticleEmitter")
+ManualWeld79 = Instance.new("ManualWeld")
+Weld80 = Instance.new("Weld")
+Part81 = Instance.new("Part")
+SurfaceGui82 = Instance.new("SurfaceGui")
+Frame83 = Instance.new("Frame")
+SurfaceLight84 = Instance.new("SurfaceLight")
+Weld85 = Instance.new("Weld")
+Part86 = Instance.new("Part")
+SurfaceGui87 = Instance.new("SurfaceGui")
+Frame88 = Instance.new("Frame")
+SurfaceLight89 = Instance.new("SurfaceLight")
+Weld90 = Instance.new("Weld")
+Configuration91 = Instance.new("Configuration")
+NumberValue92 = Instance.new("NumberValue")
+NumberValue93 = Instance.new("NumberValue")
+NumberValue94 = Instance.new("NumberValue")
+NumberValue95 = Instance.new("NumberValue")
+NumberValue96 = Instance.new("NumberValue")
+Script97 = Instance.new("Script")
+LocalScript98 = Instance.new("LocalScript")
+ObjectValue99 = Instance.new("ObjectValue")
+ModuleScript100 = Instance.new("ModuleScript")
+IntValue101 = Instance.new("IntValue")
+Script102 = Instance.new("Script")
+Script103 = Instance.new("Script")
+Model0.Name = "Vehicle"
+Model0.Parent = mas
+Part1.Name = "Button"
+Part1.Parent = Model0
+Part1.CFrame = CFrame.new(17.0366096, -188.696335, 2178.41528, 6.24860604e-07, -2.41556372e-05, -0.999998689, 2.33103201e-05, 0.999999166, -2.34237141e-05, 0.99999851, -2.31140912e-05, 1.26703844e-06)
+Part1.Orientation = Vector3.new(0, -90, 0)
+Part1.Position = Vector3.new(17.036609649658203, -188.6963348388672, 2178.415283203125)
+Part1.Rotation = Vector3.new(86.9000015258789, -89.91000366210938, 88.5199966430664)
+Part1.Color = Color3.new(0.0509804, 0.411765, 0.67451)
+Part1.Transparency = 0.5
+Part1.Size = Vector3.new(9.637685775756836, 2.1990718841552734, 7.132479667663574)
+Part1.Anchored = true
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.BrickColor = BrickColor.new("Bright blue")
+Part1.CanCollide = false
+Part1.CustomPhysicalProperties = 0.699999988, 1, 0, 1, 1
+Part1.Material = Enum.Material.SmoothPlastic
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.brickColor = BrickColor.new("Bright blue")
+Part1.FormFactor = Enum.FormFactor.Plate
+Part1.formFactor = Enum.FormFactor.Plate
+Script2.Name = "Activate"
+Script2.Parent = Part1
+table.insert(cors,sandbox(Script2,function()
+button = script.Parent
+
+regen = button.Parent.Regen
+
+
+
+local debounce = false
+
+
+
+function onTouch(hit)
+
+	local h = hit.Parent:FindFirstChild("Humanoid")
+
+	if h ~= nil and debounce == false then
+
+		debounce = true
+
+		button.BrickColor = BrickColor.Red()
+
+		regen.Value = 1
+
+		wait(1)
+
+		regen.Value = 0
+
+		wait(5)
+
+		button.BrickColor = BrickColor.Blue()
+
+		debounce = false
+
+	end
+
+end
+
+button.Touched:connect(onTouch)
+end))
+SpecialMesh3.Parent = Part1
+SpecialMesh3.MeshId = "http://www.roblox.com/asset/?id=42583785"
+SpecialMesh3.Scale = Vector3.new(9.637688636779785, 10.995196342468262, 7.132485866546631)
+SpecialMesh3.MeshType = Enum.MeshType.FileMesh
+Script4.Name = "spin"
+Script4.Parent = Part1
+table.insert(cors,sandbox(Script4,function()
+spinning = script.Parent
+
+while true do
+spinning.CFrame = spinning.CFrame * CFrame.fromEulerAnglesXYZ(0, math.rad(2), 0.)
+wait()
+end
+
+end))
+Model5.Name = "Station"
+Model5.Parent = Model0
+Model6.Name = "Cola Jet"
+Model6.Parent = Model5
+Part7.Name = "Thruster"
+Part7.Parent = Model6
+Part7.CFrame = CFrame.new(-0.271378994, -187.421814, 2178.9248, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part7.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part7.Position = Vector3.new(-0.2713789939880371, -187.42181396484375, 2178.9248046875)
+Part7.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part7.Transparency = 1
+Part7.Size = Vector3.new(1, 1, 2)
+Part7.BottomSurface = Enum.SurfaceType.Smooth
+Part7.CanCollide = false
+Part7.TopSurface = Enum.SurfaceType.Smooth
+Part7.FormFactor = Enum.FormFactor.Custom
+Part7.formFactor = Enum.FormFactor.Custom
+Weld8.Name = "WheelWeld"
+Weld8.Parent = Part7
+Weld8.C0 = CFrame.new(0, -1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld8.Part0 = Part7
+Weld8.Part1 = UnionOperation43
+Weld8.part1 = UnionOperation43
+Weld9.Parent = Part7
+Weld9.C0 = CFrame.new(-2.5, 0, -4, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld9.Part0 = Part33
+Weld9.Part1 = Part7
+Weld9.part1 = Part7
+UnionOperation10.Name = "EngineBlock"
+UnionOperation10.Parent = Model6
+UnionOperation10.CFrame = CFrame.new(0.363121748, -186.17186, 2176.45532, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation10.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation10.Position = Vector3.new(0.36312174797058105, -186.17185974121094, 2176.455322265625)
+UnionOperation10.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation10.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation10.Transparency = 1
+UnionOperation10.Size = Vector3.new(5.000001907348633, 2.5000014305114746, 4.000000476837158)
+UnionOperation10.UsePartColor = true
+Sound11.Name = "Running"
+Sound11.Parent = UnionOperation10
+Sound11.Looped = true
+Sound11.EmitterSize = 0
+Sound11.MinDistance = 0
+Sound11.SoundId = "http://www.roblox.com/asset/?id=391824568"
+Sound11.Volume = 1
+Weld12.Parent = UnionOperation10
+Weld12.C0 = CFrame.new(0, 1.25, -3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld12.Part0 = Part33
+Weld12.Part1 = UnionOperation10
+Weld12.part1 = UnionOperation10
+Part13.Parent = Model6
+Part13.CFrame = CFrame.new(-1.38427925, -187.67189, 2176.36084, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part13.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part13.Position = Vector3.new(-1.3842792510986328, -187.67189025878906, 2176.36083984375)
+Part13.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part13.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part13.Transparency = 1
+Part13.Size = Vector3.new(5, 0.5, 0.5)
+Part13.BottomSurface = Enum.SurfaceType.Smooth
+Part13.BrickColor = BrickColor.new("Really black")
+Part13.TopSurface = Enum.SurfaceType.Smooth
+Part13.brickColor = BrickColor.new("Really black")
+Part13.FormFactor = Enum.FormFactor.Custom
+Part13.formFactor = Enum.FormFactor.Custom
+Weld14.Parent = Part13
+Weld14.C0 = CFrame.new(0, -0.25, -5.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld14.Part0 = Part33
+Weld14.Part1 = Part13
+Weld14.part1 = Part13
+Part15.Name = "Thruster"
+Part15.Parent = Model6
+Part15.CFrame = CFrame.new(-0.000853776932, -187.421921, 2173.93213, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part15.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part15.Position = Vector3.new(-0.0008537769317626953, -187.4219207763672, 2173.93212890625)
+Part15.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part15.Transparency = 1
+Part15.Size = Vector3.new(1, 1, 2)
+Part15.BottomSurface = Enum.SurfaceType.Smooth
+Part15.CanCollide = false
+Part15.TopSurface = Enum.SurfaceType.Smooth
+Part15.FormFactor = Enum.FormFactor.Custom
+Part15.formFactor = Enum.FormFactor.Custom
+Weld16.Name = "WheelWeld"
+Weld16.Parent = Part15
+Weld16.C0 = CFrame.new(0, -1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld16.Part0 = Part15
+Weld16.Part1 = UnionOperation66
+Weld16.part1 = UnionOperation66
+Weld17.Parent = Part15
+Weld17.C0 = CFrame.new(2.5, 0, -4, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld17.Part0 = Part33
+Weld17.Part1 = Part15
+Weld17.part1 = Part15
+UnionOperation18.Parent = Model6
+UnionOperation18.CFrame = CFrame.new(7.72423649, -186.171722, 2174.60083, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation18.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation18.Position = Vector3.new(7.724236488342285, -186.17172241210938, 2174.600830078125)
+UnionOperation18.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation18.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation18.Transparency = 1
+UnionOperation18.Size = Vector3.new(0.5000008344650269, 2.5000009536743164, 3.500000238418579)
+UnionOperation18.UsePartColor = true
+ManualWeld19.Name = "Union-to-Part Strong Joint"
+ManualWeld19.Parent = UnionOperation18
+ManualWeld19.C0 = CFrame.new(-0.250000417, -1.25000048, -1.75000012, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+ManualWeld19.C1 = CFrame.new(2.00003052, -1.24999809, -3.25, 1.99786854e-11, 4.10487968e-13, -1, -3.67035682e-08, 1, -4.09731737e-13, 1, -3.67035682e-08, -1.99786854e-11)
+ManualWeld19.Part0 = UnionOperation18
+ManualWeld19.Part1 = Part62
+ManualWeld19.part1 = Part62
+UnionOperation20.Parent = UnionOperation18
+UnionOperation20.CFrame = CFrame.new(3.97973609, -186.421814, 2174.39795, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation20.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation20.Position = Vector3.new(3.979736089706421, -186.42181396484375, 2174.39794921875)
+UnionOperation20.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation20.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation20.Transparency = 1
+UnionOperation20.Size = Vector3.new(0.5000008344650269, 3.000000476837158, 4.000000476837158)
+UnionOperation20.UsePartColor = true
+Weld21.Parent = UnionOperation20
+Weld21.C0 = CFrame.new(2.25, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld21.Part0 = Part33
+Weld21.Part1 = UnionOperation20
+Weld21.part1 = UnionOperation20
+UnionOperation22.Parent = UnionOperation18
+UnionOperation22.CFrame = CFrame.new(3.73626351, -186.421722, 2178.89136, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation22.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation22.Position = Vector3.new(3.7362635135650635, -186.42172241210938, 2178.891357421875)
+UnionOperation22.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation22.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation22.Transparency = 1
+UnionOperation22.Size = Vector3.new(0.5000008344650269, 3.000000476837158, 4.000000476837158)
+UnionOperation22.UsePartColor = true
+Weld23.Parent = UnionOperation22
+Weld23.C0 = CFrame.new(-2.25, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld23.Part0 = Part33
+Weld23.Part1 = UnionOperation22
+Weld23.part1 = UnionOperation22
+UnionOperation24.Parent = UnionOperation18
+UnionOperation24.CFrame = CFrame.new(7.48076344, -186.171631, 2179.09424, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation24.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation24.Position = Vector3.new(7.4807634353637695, -186.171630859375, 2179.09423828125)
+UnionOperation24.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation24.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation24.Transparency = 1
+UnionOperation24.Size = Vector3.new(0.5000008344650269, 2.5000009536743164, 3.500000238418579)
+UnionOperation24.UsePartColor = true
+ManualWeld25.Name = "Union-to-Part Strong Joint"
+ManualWeld25.Parent = UnionOperation24
+ManualWeld25.C0 = CFrame.new(0.250000417, -1.25000048, 1.75000012, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+ManualWeld25.C1 = CFrame.new(-1.99993896, -1.24999714, 0.25, -2.66382472e-11, 4.10628833e-13, 1, 4.89380909e-08, 1, 4.09494487e-13, -1, -4.89380909e-08, 2.66382472e-11)
+ManualWeld25.Part0 = UnionOperation24
+ManualWeld25.Part1 = Part62
+ManualWeld25.part1 = Part62
+Weld26.Parent = UnionOperation24
+Weld26.C0 = CFrame.new(-2.25, 1.25000048, 3.75, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld26.Part0 = Part33
+Weld26.Part1 = UnionOperation24
+Weld26.part1 = UnionOperation24
+UnionOperation27.Parent = UnionOperation18
+UnionOperation27.CFrame = CFrame.new(2.50264597, -183.794006, 2176.57129, -0.0541050471, 0.242157444, -0.968726873, 2.20828479e-05, 0.970148325, 0.24251157, 0.998535097, 0.0130996453, -0.0524952374)
+UnionOperation27.Orientation = Vector3.new(-14.029999732971191, -93.0999984741211, 0)
+UnionOperation27.Position = Vector3.new(2.502645969390869, -183.79400634765625, 2176.5712890625)
+UnionOperation27.Rotation = Vector3.new(-102.20999908447266, -75.62999725341797, -102.58999633789062)
+UnionOperation27.Color = Color3.new(0.972549, 0.972549, 0.972549)
+UnionOperation27.Transparency = 1
+UnionOperation27.Size = Vector3.new(5.000003814697266, 2.500000476837158, 0.30000150203704834)
+UnionOperation27.CanCollide = false
+UnionOperation27.UsePartColor = true
+Weld28.Parent = UnionOperation27
+Weld28.C0 = CFrame.new(-1.90734863e-06, 3.62779188, -1.35728073, -1, 0, 0, 0, 0.970142543, 0.242535442, 0, 0.242535442, -0.970142543)
+Weld28.Part0 = Part33
+Weld28.Part1 = UnionOperation27
+Weld28.part1 = UnionOperation27
+Weld29.Parent = UnionOperation18
+Weld29.C0 = CFrame.new(2.25, 1.25000048, 3.75, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld29.Part0 = Part33
+Weld29.Part1 = UnionOperation18
+Weld29.part1 = UnionOperation18
+Part30.Name = "Thruster"
+Part30.Parent = Model6
+Part30.CFrame = CFrame.new(7.48815823, -187.421738, 2174.33789, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part30.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part30.Position = Vector3.new(7.488158226013184, -187.42173767089844, 2174.337890625)
+Part30.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part30.Transparency = 1
+Part30.Size = Vector3.new(1, 1, 2)
+Part30.BottomSurface = Enum.SurfaceType.Smooth
+Part30.CanCollide = false
+Part30.TopSurface = Enum.SurfaceType.Smooth
+Part30.FormFactor = Enum.FormFactor.Custom
+Part30.formFactor = Enum.FormFactor.Custom
+Weld31.Name = "WheelWeld"
+Weld31.Parent = Part30
+Weld31.C0 = CFrame.new(0, -1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld31.Part0 = Part30
+Weld31.Part1 = UnionOperation54
+Weld31.part1 = UnionOperation54
+Weld32.Parent = Part30
+Weld32.C0 = CFrame.new(2.5, 0, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld32.Part0 = Part33
+Weld32.Part1 = Part30
+Weld32.part1 = Part30
+Part33.Name = "Chassis"
+Part33.Parent = Model6
+Part33.CFrame = CFrame.new(3.85802317, -187.421768, 2176.64478, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part33.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part33.Position = Vector3.new(3.858023166656494, -187.42176818847656, 2176.644775390625)
+Part33.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part33.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part33.Size = Vector3.new(4, 1, 10)
+Part33.BottomSurface = Enum.SurfaceType.Smooth
+Part33.BrickColor = BrickColor.new("Really black")
+Part33.TopSurface = Enum.SurfaceType.Smooth
+Part33.brickColor = BrickColor.new("Really black")
+Part33.FormFactor = Enum.FormFactor.Custom
+Part33.formFactor = Enum.FormFactor.Custom
+BodyPosition34.Parent = Part33
+BodyPosition34.MaxForce = Vector3.new(0, 0, 0)
+BodyPosition34.maxForce = Vector3.new(0, 0, 0)
+BodyGyro35.Parent = Part33
+BodyGyro35.MaxTorque = Vector3.new(0, 0, 0)
+BodyGyro35.maxTorque = Vector3.new(0, 0, 0)
+Decal36.Parent = Part33
+Decal36.Texture = "rbxassetid://171424308"
+SpecialMesh37.Parent = Part33
+SpecialMesh37.MeshId = "rbxassetid://9731180239"
+SpecialMesh37.Offset = Vector3.new(0, 2, 0)
+SpecialMesh37.Scale = Vector3.new(0.30000001192092896, 0.30000001192092896, 0.30000001192092896)
+SpecialMesh37.TextureId = "rbxassetid://9731180462"
+SpecialMesh37.MeshType = Enum.MeshType.FileMesh
+ManualWeld38.Name = "Chassis-to-Part Strong Joint"
+ManualWeld38.Parent = Part33
+ManualWeld38.C0 = CFrame.new(-2, -0.5, 5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+ManualWeld38.C1 = CFrame.new(-1.99993896, -1.74999809, -0.25, 1, 4.10487968e-13, 1.99786854e-11, 4.09731737e-13, 1, -3.67035682e-08, 1.99786854e-11, -3.67035682e-08, 1)
+ManualWeld38.Part0 = Part33
+ManualWeld38.Part1 = Part62
+ManualWeld38.part1 = Part62
+ManualWeld39.Name = "Chassis-to-DriveSeat Strong Joint"
+ManualWeld39.Parent = Part33
+ManualWeld39.C0 = CFrame.new(-2, 0.5, 5, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+ManualWeld39.C1 = CFrame.new(-2, -0.0999660492, 4.6000061, -1, -1.142093e-08, -1.2423443e-06, -1.2423443e-06, 1.00420866e-05, 1, -1.14084546e-08, 1, -1.00420866e-05)
+ManualWeld39.Part0 = Part33
+ManualWeld39.Part1 = VehicleSeat50
+ManualWeld39.part1 = VehicleSeat50
+Part40.Parent = Model6
+Part40.CFrame = CFrame.new(7.35286617, -186.171677, 2176.83423, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part40.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part40.Position = Vector3.new(7.352866172790527, -186.1716766357422, 2176.834228515625)
+Part40.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part40.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part40.Transparency = 1
+Part40.Size = Vector3.new(4, 1.5, 3)
+Part40.BottomSurface = Enum.SurfaceType.Smooth
+Part40.BrickColor = BrickColor.new("Institutional white")
+Part40.TopSurface = Enum.SurfaceType.Smooth
+Part40.brickColor = BrickColor.new("Institutional white")
+Part40.FormFactor = Enum.FormFactor.Custom
+Part40.formFactor = Enum.FormFactor.Custom
+ManualWeld41.Name = "Part-to-Part Strong Joint"
+ManualWeld41.Parent = Part40
+ManualWeld41.C0 = CFrame.new(-2, -0.75, 1.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+ManualWeld41.C1 = CFrame.new(-1.99996948, -0.749999046, -0.25, 1, 4.10347076e-13, 1.33191236e-11, 4.09968961e-13, 1, -2.44690455e-08, 1.33191236e-11, -2.44690455e-08, 1)
+ManualWeld41.Part0 = Part40
+ManualWeld41.Part1 = Part62
+ManualWeld41.part1 = Part62
+Weld42.Parent = Part40
+Weld42.C0 = CFrame.new(0, 1.25, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld42.Part0 = Part33
+Weld42.Part1 = Part40
+Weld42.part1 = Part40
+UnionOperation43.Name = "FrontLeftWheel"
+UnionOperation43.Parent = Model6
+UnionOperation43.CFrame = CFrame.new(-0.271355629, -188.421814, 2178.9248, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation43.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation43.Position = Vector3.new(-0.27135562896728516, -188.42181396484375, 2178.9248046875)
+UnionOperation43.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation43.Color = Color3.new(0.105882, 0.164706, 0.207843)
+UnionOperation43.Size = Vector3.new(1.5, 3, 3)
+UnionOperation43.BrickColor = BrickColor.new("Black")
+UnionOperation43.CanCollide = false
+UnionOperation43.brickColor = BrickColor.new("Black")
+Texture44.Parent = UnionOperation43
+Texture44.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture44.Transparency = 0.5
+Texture44.Face = Enum.NormalId.Top
+Texture44.StudsPerTileU = 3
+Texture44.StudsPerTileV = 3
+Texture45.Parent = UnionOperation43
+Texture45.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture45.Transparency = 0.5
+Texture45.StudsPerTileU = 3
+Texture45.StudsPerTileV = 3
+Texture46.Parent = UnionOperation43
+Texture46.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture46.Transparency = 0.5
+Texture46.Face = Enum.NormalId.Back
+Texture46.StudsPerTileU = 3
+Texture46.StudsPerTileV = 3
+Texture47.Parent = UnionOperation43
+Texture47.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture47.Transparency = 0.5
+Texture47.Face = Enum.NormalId.Bottom
+Texture47.StudsPerTileU = 3
+Texture47.StudsPerTileV = 3
+ParticleEmitter48.Parent = UnionOperation43
+ParticleEmitter48.Speed = NumberRange.new(0, 0)
+ParticleEmitter48.Rotation = NumberRange.new(0, 360)
+ParticleEmitter48.Color = ColorSequence.new(Color3.new(0.121569, 0.121569, 0.121569),Color3.new(0.121569, 0.121569, 0.121569))
+ParticleEmitter48.Enabled = false
+ParticleEmitter48.LightEmission = 0.20000000298023224
+ParticleEmitter48.Texture = "rbxassetid://287259619"
+ParticleEmitter48.Transparency = NumberSequence.new(1,0.800000011920929,0.668749988079071,0.675000011920929,0.8125,1)
+ParticleEmitter48.Size = NumberSequence.new(0,0.537634015083313,0.8064510226249695,0.9139779806137085)
+ParticleEmitter48.Acceleration = Vector3.new(0, -5, 0)
+ParticleEmitter48.Lifetime = NumberRange.new(0.800000011920929, 1.2000000476837158)
+ParticleEmitter48.Rate = 50
+ParticleEmitter48.RotSpeed = NumberRange.new(-200, 200)
+ParticleEmitter48.SpreadAngle = Vector2.new(40, 40)
+ParticleEmitter48.VelocitySpread = 40
+Weld49.Parent = UnionOperation43
+Weld49.C0 = CFrame.new(0, -1.49999988, 0, 1, 0, -8.05304134e-16, 4.51773167e-13, 0, -1, 2.66382472e-11, 1, 4.8930815e-08)
+Weld49.C1 = CFrame.new(-30.5, 10, 17.6000042, 1, -1.33191236e-11, 2.2541108e-13, 2.25411405e-13, 2.44654075e-08, -1, 1.33191236e-11, 1, 2.44654075e-08)
+Weld49.Part0 = UnionOperation43
+VehicleSeat50.Name = "DriveSeat"
+VehicleSeat50.Parent = Model6
+VehicleSeat50.CFrame = CFrame.new(4.25741768, -186.821747, 2176.6665, 0.054105036, -1.32741343e-05, 0.998534918, -2.33251922e-05, 0.999999821, 1.45192944e-05, -0.998535097, -2.41292691e-05, 0.0541049801)
+VehicleSeat50.Orientation = Vector3.new(0, 86.9000015258789, 0)
+VehicleSeat50.Position = Vector3.new(4.257417678833008, -186.82174682617188, 2176.66650390625)
+VehicleSeat50.Rotation = Vector3.new(-0.019999999552965164, 86.9000015258789, 0.009999999776482582)
+VehicleSeat50.Color = Color3.new(0.105882, 0.164706, 0.207843)
+VehicleSeat50.Size = Vector3.new(2, 0.20000000298023224, 2)
+VehicleSeat50.BrickColor = BrickColor.new("Black")
+VehicleSeat50.TopSurface = Enum.SurfaceType.Smooth
+VehicleSeat50.brickColor = BrickColor.new("Black")
+Part51.Name = "Thruster"
+Part51.Parent = Model6
+Part51.CFrame = CFrame.new(7.21763229, -187.421631, 2179.33057, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part51.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part51.Position = Vector3.new(7.217632293701172, -187.421630859375, 2179.33056640625)
+Part51.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part51.Transparency = 1
+Part51.Size = Vector3.new(1, 1, 2)
+Part51.BottomSurface = Enum.SurfaceType.Smooth
+Part51.CanCollide = false
+Part51.TopSurface = Enum.SurfaceType.Smooth
+Part51.FormFactor = Enum.FormFactor.Custom
+Part51.formFactor = Enum.FormFactor.Custom
+Weld52.Name = "WheelWeld"
+Weld52.Parent = Part51
+Weld52.C0 = CFrame.new(0, -1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld52.Part0 = Part51
+Weld52.Part1 = UnionOperation73
+Weld52.part1 = UnionOperation73
+Weld53.Parent = Part51
+Weld53.C0 = CFrame.new(-2.5, 0, 3.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld53.Part0 = Part33
+Weld53.Part1 = Part51
+Weld53.part1 = Part51
+UnionOperation54.Name = "BackRightWheel"
+UnionOperation54.Parent = Model6
+UnionOperation54.CFrame = CFrame.new(7.48817968, -188.421738, 2174.33789, 0.0541050471, -2.34175895e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45124411e-05, -0.998535097, -2.3434719e-05, 0.0541049913)
+UnionOperation54.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation54.Position = Vector3.new(7.488179683685303, -188.42173767089844, 2174.337890625)
+UnionOperation54.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation54.Color = Color3.new(0.105882, 0.164706, 0.207843)
+UnionOperation54.Size = Vector3.new(1.5, 3, 3)
+UnionOperation54.BrickColor = BrickColor.new("Black")
+UnionOperation54.CanCollide = false
+UnionOperation54.brickColor = BrickColor.new("Black")
+Texture55.Parent = UnionOperation54
+Texture55.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture55.Transparency = 0.5
+Texture55.Face = Enum.NormalId.Top
+Texture55.StudsPerTileU = 3
+Texture55.StudsPerTileV = 3
+Texture56.Parent = UnionOperation54
+Texture56.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture56.Transparency = 0.5
+Texture56.StudsPerTileU = 3
+Texture56.StudsPerTileV = 3
+Texture57.Parent = UnionOperation54
+Texture57.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture57.Transparency = 0.5
+Texture57.Face = Enum.NormalId.Back
+Texture57.StudsPerTileU = 3
+Texture57.StudsPerTileV = 3
+Texture58.Parent = UnionOperation54
+Texture58.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture58.Transparency = 0.5
+Texture58.Face = Enum.NormalId.Bottom
+Texture58.StudsPerTileU = 3
+Texture58.StudsPerTileV = 3
+ParticleEmitter59.Parent = UnionOperation54
+ParticleEmitter59.Speed = NumberRange.new(0, 0)
+ParticleEmitter59.Rotation = NumberRange.new(0, 360)
+ParticleEmitter59.Color = ColorSequence.new(Color3.new(0.121569, 0.121569, 0.121569),Color3.new(0.121569, 0.121569, 0.121569))
+ParticleEmitter59.Enabled = false
+ParticleEmitter59.LightEmission = 0.20000000298023224
+ParticleEmitter59.Texture = "rbxassetid://287259619"
+ParticleEmitter59.Transparency = NumberSequence.new(1,0.800000011920929,0.668749988079071,0.675000011920929,0.8125,1)
+ParticleEmitter59.Size = NumberSequence.new(0,0.537634015083313,0.8064510226249695,0.9139779806137085)
+ParticleEmitter59.Acceleration = Vector3.new(0, -5, 0)
+ParticleEmitter59.Lifetime = NumberRange.new(0.800000011920929, 1.2000000476837158)
+ParticleEmitter59.Rate = 50
+ParticleEmitter59.RotSpeed = NumberRange.new(-200, 200)
+ParticleEmitter59.SpreadAngle = Vector2.new(40, 40)
+ParticleEmitter59.VelocitySpread = 40
+ManualWeld60.Name = "BackRightWheel-to-Part Strong Joint"
+ManualWeld60.Parent = UnionOperation54
+ManualWeld60.C0 = CFrame.new(-0.75, -1.5, 1.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+ManualWeld60.C1 = CFrame.new(1.75003052, -3.75, -0.25, 1, 4.10206211e-13, 6.65956179e-12, 4.10206211e-13, 1, -1.22345227e-08, 6.65956179e-12, -1.22345227e-08, 1)
+ManualWeld60.Part0 = UnionOperation54
+ManualWeld60.Part1 = Part62
+ManualWeld60.part1 = Part62
+Weld61.Parent = UnionOperation54
+Weld61.C0 = CFrame.new(0, -1.50000012, 0, 1, 0, -8.05304134e-16, 4.51773167e-13, 0, -1, 2.66382472e-11, 1, 4.8930815e-08)
+Weld61.C1 = CFrame.new(-25.5, 10, 25.1000042, 1, -1.33191236e-11, 2.2541108e-13, 2.25411405e-13, 2.44654075e-08, -1, 1.33191236e-11, 1, 2.44654075e-08)
+Weld61.Part0 = UnionOperation54
+Part62.Parent = Model6
+Part62.CFrame = CFrame.new(9.10029888, -186.171646, 2176.92896, 0.0541050471, -2.34053732e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45246756e-05, -0.998535097, -2.34340569e-05, 0.0541049913)
+Part62.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part62.Position = Vector3.new(9.100298881530762, -186.17164611816406, 2176.928955078125)
+Part62.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part62.Color = Color3.new(0.972549, 0.972549, 0.972549)
+Part62.Transparency = 1
+Part62.Size = Vector3.new(4, 2.5, 0.5)
+Part62.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Part62.BottomSurface = Enum.SurfaceType.Smooth
+Part62.BrickColor = BrickColor.new("Institutional white")
+Part62.TopSurface = Enum.SurfaceType.Smooth
+Part62.brickColor = BrickColor.new("Institutional white")
+Part62.FormFactor = Enum.FormFactor.Custom
+Part62.formFactor = Enum.FormFactor.Custom
+Part63.Parent = Model6
+Part63.CFrame = CFrame.new(9.10033703, -187.671646, 2176.92871, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+Part63.Orientation = Vector3.new(0, 86.9000015258789, 0)
+Part63.Position = Vector3.new(9.100337028503418, -187.67164611816406, 2176.9287109375)
+Part63.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+Part63.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part63.Transparency = 1
+Part63.Size = Vector3.new(5, 0.5, 0.5)
+Part63.BottomSurface = Enum.SurfaceType.Smooth
+Part63.BrickColor = BrickColor.new("Really black")
+Part63.TopSurface = Enum.SurfaceType.Smooth
+Part63.brickColor = BrickColor.new("Really black")
+Part63.FormFactor = Enum.FormFactor.Custom
+Part63.formFactor = Enum.FormFactor.Custom
+ManualWeld64.Name = "Part-to-Part Strong Joint"
+ManualWeld64.Parent = Part63
+ManualWeld64.C0 = CFrame.new(-2.5, 0.25, 0.25, -1, 0, 0, 0, 0, 1, 0, 1, -0)
+ManualWeld64.C1 = CFrame.new(-2.49996948, -1.24999809, 0.25, -1, 1.99786854e-11, 4.10487968e-13, -4.09731737e-13, -3.67035682e-08, 1, -1.99786854e-11, 1, -3.67035682e-08)
+ManualWeld64.Part0 = Part63
+ManualWeld64.Part1 = Part62
+ManualWeld64.part1 = Part62
+Weld65.Parent = Part63
+Weld65.C0 = CFrame.new(0, -0.25, 5.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Weld65.Part0 = Part33
+Weld65.Part1 = Part63
+Weld65.part1 = Part63
+UnionOperation66.Name = "FrontRightWheel"
+UnionOperation66.Parent = Model6
+UnionOperation66.CFrame = CFrame.new(-0.000830408186, -188.421921, 2173.93213, 0.0541050471, -2.33687242e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.45613792e-05, -0.998535097, -2.34320705e-05, 0.0541049913)
+UnionOperation66.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation66.Position = Vector3.new(-0.0008304081857204437, -188.4219207763672, 2173.93212890625)
+UnionOperation66.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation66.Color = Color3.new(0.105882, 0.164706, 0.207843)
+UnionOperation66.Size = Vector3.new(1.5, 3, 3)
+UnionOperation66.BrickColor = BrickColor.new("Black")
+UnionOperation66.CanCollide = false
+UnionOperation66.brickColor = BrickColor.new("Black")
+Texture67.Parent = UnionOperation66
+Texture67.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture67.Transparency = 0.5
+Texture67.Face = Enum.NormalId.Top
+Texture67.StudsPerTileU = 3
+Texture67.StudsPerTileV = 3
+Texture68.Parent = UnionOperation66
+Texture68.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture68.Transparency = 0.5
+Texture68.StudsPerTileU = 3
+Texture68.StudsPerTileV = 3
+Texture69.Parent = UnionOperation66
+Texture69.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture69.Transparency = 0.5
+Texture69.Face = Enum.NormalId.Back
+Texture69.StudsPerTileU = 3
+Texture69.StudsPerTileV = 3
+Texture70.Parent = UnionOperation66
+Texture70.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture70.Transparency = 0.5
+Texture70.Face = Enum.NormalId.Bottom
+Texture70.StudsPerTileU = 3
+Texture70.StudsPerTileV = 3
+ParticleEmitter71.Parent = UnionOperation66
+ParticleEmitter71.Speed = NumberRange.new(0, 0)
+ParticleEmitter71.Rotation = NumberRange.new(0, 360)
+ParticleEmitter71.Color = ColorSequence.new(Color3.new(0.121569, 0.121569, 0.121569),Color3.new(0.121569, 0.121569, 0.121569))
+ParticleEmitter71.Enabled = false
+ParticleEmitter71.LightEmission = 0.20000000298023224
+ParticleEmitter71.Texture = "rbxassetid://287259619"
+ParticleEmitter71.Transparency = NumberSequence.new(1,0.800000011920929,0.668749988079071,0.675000011920929,0.8125,1)
+ParticleEmitter71.Size = NumberSequence.new(0,0.537634015083313,0.8064510226249695,0.9139779806137085)
+ParticleEmitter71.Acceleration = Vector3.new(0, -5, 0)
+ParticleEmitter71.Lifetime = NumberRange.new(0.800000011920929, 1.2000000476837158)
+ParticleEmitter71.Rate = 50
+ParticleEmitter71.RotSpeed = NumberRange.new(-200, 200)
+ParticleEmitter71.SpreadAngle = Vector2.new(40, 40)
+ParticleEmitter71.VelocitySpread = 40
+Weld72.Parent = UnionOperation66
+Weld72.C0 = CFrame.new(0, -1.49999988, 0, 1, 0, -8.05304134e-16, 4.51773167e-13, 0, -1, 2.66382472e-11, 1, 4.8930815e-08)
+Weld72.C1 = CFrame.new(-25.5, 10, 17.6000042, 1, -1.33191236e-11, 2.2541108e-13, 2.25411405e-13, 2.44654075e-08, -1, 1.33191236e-11, 1, 2.44654075e-08)
+Weld72.Part0 = UnionOperation66
+UnionOperation73.Name = "BackLeftWheel"
+UnionOperation73.Parent = Model6
+UnionOperation73.CFrame = CFrame.new(7.21765757, -188.421631, 2179.33057, 0.0541050471, -2.34542404e-05, 0.998534918, -2.20828479e-05, 0.999999821, 2.44757375e-05, -0.998535097, -2.34367053e-05, 0.0541049913)
+UnionOperation73.Orientation = Vector3.new(0, 86.9000015258789, 0)
+UnionOperation73.Position = Vector3.new(7.217657566070557, -188.421630859375, 2179.33056640625)
+UnionOperation73.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 0.019999999552965164)
+UnionOperation73.Color = Color3.new(0.105882, 0.164706, 0.207843)
+UnionOperation73.Size = Vector3.new(1.5, 3, 3)
+UnionOperation73.BrickColor = BrickColor.new("Black")
+UnionOperation73.CanCollide = false
+UnionOperation73.brickColor = BrickColor.new("Black")
+Texture74.Parent = UnionOperation73
+Texture74.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture74.Transparency = 0.5
+Texture74.Face = Enum.NormalId.Top
+Texture74.StudsPerTileU = 3
+Texture74.StudsPerTileV = 3
+Texture75.Parent = UnionOperation73
+Texture75.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture75.Transparency = 0.5
+Texture75.StudsPerTileU = 3
+Texture75.StudsPerTileV = 3
+Texture76.Parent = UnionOperation73
+Texture76.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture76.Transparency = 0.5
+Texture76.Face = Enum.NormalId.Back
+Texture76.StudsPerTileU = 3
+Texture76.StudsPerTileV = 3
+Texture77.Parent = UnionOperation73
+Texture77.Texture = "http://www.roblox.com/asset/?id=259149256"
+Texture77.Transparency = 0.5
+Texture77.Face = Enum.NormalId.Bottom
+Texture77.StudsPerTileU = 3
+Texture77.StudsPerTileV = 3
+ParticleEmitter78.Parent = UnionOperation73
+ParticleEmitter78.Speed = NumberRange.new(0, 0)
+ParticleEmitter78.Rotation = NumberRange.new(0, 360)
+ParticleEmitter78.Color = ColorSequence.new(Color3.new(0.121569, 0.121569, 0.121569),Color3.new(0.121569, 0.121569, 0.121569))
+ParticleEmitter78.Enabled = false
+ParticleEmitter78.LightEmission = 0.20000000298023224
+ParticleEmitter78.Texture = "rbxassetid://287259619"
+ParticleEmitter78.Transparency = NumberSequence.new(1,0.800000011920929,0.668749988079071,0.675000011920929,0.8125,1)
+ParticleEmitter78.Size = NumberSequence.new(0,0.537634015083313,0.8064510226249695,0.9139779806137085)
+ParticleEmitter78.Acceleration = Vector3.new(0, -5, 0)
+ParticleEmitter78.Lifetime = NumberRange.new(0.800000011920929, 1.2000000476837158)
+ParticleEmitter78.Rate = 50
+ParticleEmitter78.RotSpeed = NumberRange.new(-200, 200)
+ParticleEmitter78.SpreadAngle = Vector2.new(40, 40)
+ParticleEmitter78.VelocitySpread = 40
+ManualWeld79.Name = "BackLeftWheel-to-Part Strong Joint"
+ManualWeld79.Parent = UnionOperation73
+ManualWeld79.C0 = CFrame.new(-0.75, -1.5, 1.5, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+ManualWeld79.C1 = CFrame.new(-3.24990845, -3.74999619, -0.25, 1, 4.10628833e-13, 2.66382472e-11, 4.09494487e-13, 1, -4.89380909e-08, 2.66382472e-11, -4.89380909e-08, 1)
+ManualWeld79.Part0 = UnionOperation73
+ManualWeld79.Part1 = Part62
+ManualWeld79.part1 = Part62
+Weld80.Parent = UnionOperation73
+Weld80.C0 = CFrame.new(0, -1.50000012, 0, 1, 0, -8.05304134e-16, 4.51773167e-13, 0, -1, 2.66382472e-11, 1, 4.8930815e-08)
+Weld80.C1 = CFrame.new(-30.5, 10, 25.1000042, 1, -1.33191236e-11, 2.2541108e-13, 2.25411405e-13, 2.44654075e-08, -1, 1.33191236e-11, 1, 2.44654075e-08)
+Weld80.Part0 = UnionOperation73
+Part81.Name = "Light"
+Part81.Parent = Model6
+Part81.CFrame = CFrame.new(-1.40301657, -185.921936, 2174.85742, 0.0382415466, -0.0382745117, 0.998534918, 0.707091033, 0.707122266, 2.45017673e-05, -0.70608747, 0.70605433, 0.0541049652)
+Part81.Orientation = Vector3.new(0, 86.9000015258789, 45)
+Part81.Position = Vector3.new(-1.4030165672302246, -185.92193603515625, 2174.857421875)
+Part81.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 45.02000045776367)
+Part81.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part81.Transparency = 1
+Part81.Size = Vector3.new(1, 1, 0.5)
+Part81.BottomSurface = Enum.SurfaceType.Smooth
+Part81.BrickColor = BrickColor.new("Really black")
+Part81.TopSurface = Enum.SurfaceType.Smooth
+Part81.brickColor = BrickColor.new("Really black")
+Part81.FormFactor = Enum.FormFactor.Custom
+Part81.formFactor = Enum.FormFactor.Custom
+SurfaceGui82.Parent = Part81
+SurfaceGui82.CanvasSize = Vector2.new(100, 100)
+Frame83.Parent = SurfaceGui82
+Frame83.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+Frame83.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+Frame83.BackgroundColor = BrickColor.new("Institutional white")
+Frame83.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame83.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Frame83.BorderSizePixel = 0
+SurfaceLight84.Parent = Part81
+SurfaceLight84.Range = 32
+SurfaceLight84.Brightness = 0.5
+SurfaceLight84.Angle = 60
+Weld85.Parent = Part81
+Weld85.C0 = CFrame.new(1.5, 1.5, -5.35000038, 0.707106769, -0.707106769, 2.46918255e-08, 0.707106769, 0.707106769, -5.96113381e-08, 2.46918255e-08, 5.96113381e-08, 1)
+Weld85.Part0 = Part33
+Weld85.Part1 = Part81
+Weld85.part1 = Part81
+Part86.Name = "Light"
+Part86.Parent = Model6
+Part86.CFrame = CFrame.new(-1.56533146, -185.92186, 2177.85303, 0.0382414907, -0.0382746384, 0.998534918, 0.707091033, 0.707122266, 2.46297896e-05, -0.70608747, 0.70605433, 0.0541050211)
+Part86.Orientation = Vector3.new(0, 86.9000015258789, 45)
+Part86.Position = Vector3.new(-1.5653314590454102, -185.92185974121094, 2177.85302734375)
+Part86.Rotation = Vector3.new(-0.029999999329447746, 86.9000015258789, 45.02000045776367)
+Part86.Color = Color3.new(0.0666667, 0.0666667, 0.0666667)
+Part86.Transparency = 1
+Part86.Size = Vector3.new(1, 1, 0.5)
+Part86.BottomSurface = Enum.SurfaceType.Smooth
+Part86.BrickColor = BrickColor.new("Really black")
+Part86.TopSurface = Enum.SurfaceType.Smooth
+Part86.brickColor = BrickColor.new("Really black")
+Part86.FormFactor = Enum.FormFactor.Custom
+Part86.formFactor = Enum.FormFactor.Custom
+SurfaceGui87.Parent = Part86
+SurfaceGui87.CanvasSize = Vector2.new(100, 100)
+Frame88.Parent = SurfaceGui87
+Frame88.Position = UDim2.new(0.100000001, 0, 0.100000001, 0)
+Frame88.Size = UDim2.new(0.800000012, 0, 0.800000012, 0)
+Frame88.BackgroundColor = BrickColor.new("Institutional white")
+Frame88.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame88.BorderColor3 = Color3.new(0.105882, 0.164706, 0.207843)
+Frame88.BorderSizePixel = 0
+SurfaceLight89.Parent = Part86
+SurfaceLight89.Range = 32
+SurfaceLight89.Brightness = 0.5
+SurfaceLight89.Angle = 60
+Weld90.Parent = Part86
+Weld90.C0 = CFrame.new(-1.5, 1.5, -5.35000038, 0.707106769, -0.707106769, -2.83364479e-08, 0.707106769, 0.707106769, 6.84102304e-08, -2.83364479e-08, -6.84102304e-08, 1)
+Weld90.Part0 = Part33
+Weld90.Part1 = Part86
+Weld90.part1 = Part86
+Configuration91.Name = "Configurations"
+Configuration91.Parent = Model6
+NumberValue92.Name = "Bounce"
+NumberValue92.Parent = Configuration91
+NumberValue92.Value = 100
+NumberValue93.Name = "Height"
+NumberValue93.Parent = Configuration91
+NumberValue93.Value = 3
+NumberValue94.Name = "Speed"
+NumberValue94.Parent = Configuration91
+NumberValue94.Value = 80
+NumberValue95.Name = "Suspension"
+NumberValue95.Parent = Configuration91
+NumberValue95.Value = 4
+NumberValue96.Name = "TurnSpeed"
+NumberValue96.Parent = Configuration91
+NumberValue96.Value = 2
+Script97.Name = "CarScript"
+Script97.Parent = Model6
+table.insert(cors,sandbox(Script97,function()
+--Scripted by DermonDarble
+
+local car = script.Parent
+local stats = car.Configurations
+local Raycast = require(script.RaycastModule)
+
+local mass = 0
+
+for i, v in pairs(car:GetChildren()) do
+	if v:IsA("BasePart") then
+		mass = mass + (v:GetMass() * 196.2)
+	end
+end
+
+local bodyPosition = car.Chassis.BodyPosition
+local bodyGyro = car.Chassis.BodyGyro
+
+--local bodyPosition = Instance.new("BodyPosition", car.Chassis)
+--bodyPosition.MaxForce = Vector3.new()
+--local bodyGyro = Instance.new("BodyGyro", car.Chassis)
+--bodyGyro.MaxTorque = Vector3.new()
+
+local function UpdateThruster(thruster)
+	-- Raycasting
+	local hit, position = Raycast.new(thruster.Position, thruster.CFrame:vectorToWorldSpace(Vector3.new(0, -1, 0)) * stats.Height.Value) --game.Workspace:FindPartOnRay(ray, car)
+	local thrusterHeight = (position - thruster.Position).magnitude
+	
+	-- Wheel
+	local wheelWeld = thruster:FindFirstChild("WheelWeld")
+	wheelWeld.C0 = CFrame.new(0, -math.min(thrusterHeight, stats.Height.Value * 0.8) + (wheelWeld.Part1.Size.Y / 2), 0)
+	-- Wheel turning
+	local offset = car.Chassis.CFrame:inverse() * thruster.CFrame
+	local speed = car.Chassis.CFrame:vectorToObjectSpace(car.Chassis.Velocity)
+	if offset.Z < 0 then
+		local direction = 1
+		if speed.Z > 0 then
+			direction = -1
+		end
+		wheelWeld.C0 = wheelWeld.C0 * CFrame.Angles(0, (car.Chassis.RotVelocity.Y / 2) * direction, 0)
+	end
+	
+	-- Particles
+	if hit and thruster.Velocity.magnitude >= 5 then
+		wheelWeld.Part1.ParticleEmitter.Enabled = true
+	else
+		wheelWeld.Part1.ParticleEmitter.Enabled = false
+	end
+end
+
+car.DriveSeat.Changed:connect(function(property)
+	if property == "Occupant" then
+		if car.DriveSeat.Occupant then
+			car.EngineBlock.Running.Pitch = 1
+			car.EngineBlock.Running:Play()
+			local player = game.Players:GetPlayerFromCharacter(car.DriveSeat.Occupant.Parent)
+			if player then
+				car.DriveSeat:SetNetworkOwner(player)
+				local localCarScript = script.LocalCarScript:Clone()
+				localCarScript.Parent = player.PlayerGui
+				localCarScript.Car.Value = car
+				localCarScript.Disabled = false
+			end
+		else
+			car.EngineBlock.Running:Stop()
+		end
+	end
+end)
+
+--spawn(function()
+	while true do
+		game:GetService("RunService").Stepped:wait()
+		for i, part in pairs(car:GetChildren()) do
+			if part.Name == "Thruster" then
+				UpdateThruster(part)
+			end
+		end
+		if car.DriveSeat.Occupant then
+			local ratio = car.DriveSeat.Velocity.magnitude / stats.Speed.Value
+			car.EngineBlock.Running.Pitch = 1 + ratio / 4
+			bodyPosition.MaxForce = Vector3.new()
+			bodyGyro.MaxTorque = Vector3.new()
+		else
+			local hit, position, normal = Raycast.new(car.Chassis.Position, car.Chassis.CFrame:vectorToWorldSpace(Vector3.new(0, -1, 0)) * stats.Height.Value)
+			if hit and hit.CanCollide then
+				bodyPosition.MaxForce = Vector3.new(mass / 5, math.huge, mass / 5)
+				bodyPosition.Position = (CFrame.new(position, position + normal) * CFrame.new(0, 0, -stats.Height.Value + 0.5)).p
+				bodyGyro.MaxTorque = Vector3.new(math.huge, 0, math.huge)
+				bodyGyro.CFrame = CFrame.new(position, position + normal) * CFrame.Angles(-math.pi/2, 0, 0)
+			else
+				bodyPosition.MaxForce = Vector3.new()
+				bodyGyro.MaxTorque = Vector3.new()
+			end
+		end
+	end
+--end)
+end))
+LocalScript98.Name = "LocalCarScript"
+LocalScript98.Parent = Script97
+table.insert(cors,sandbox(LocalScript98,function()
+--local camera = game.Workspace.CurrentCamera
+local player = game.Players.LocalPlayer
+local character = player.Character
+local humanoidRootPart = character.HumanoidRootPart
+local car = script:WaitForChild("Car").Value
+local stats = car:WaitForChild("Configurations")
+local Raycast = require(car.CarScript.RaycastModule)
+
+--local cameraType = Enum.CameraType.Follow
+
+local movement = Vector2.new()
+local gamepadDeadzone = 0.14
+
+car.DriveSeat.Changed:connect(function(property)
+	if property == "Steer" then
+		movement = Vector2.new(car.DriveSeat.Steer, movement.Y)
+	elseif property == "Throttle" then
+		movement = Vector2.new(movement.X, car.DriveSeat.Throttle)
+	end
+end)
+
+-- Input begin
+--game:GetService("UserInputService").InputBegan:connect(function(inputObject, gameProcessedEvent)
+--	if not gameProcessedEvent then
+--		if inputObject.KeyCode == Enum.KeyCode.W then
+--			movement = Vector2.new(movement.X, 1)
+--		elseif inputObject.KeyCode == Enum.KeyCode.A then
+--			movement = Vector2.new(-1, movement.Y)
+--		elseif inputObject.KeyCode == Enum.KeyCode.S then
+--			movement = Vector2.new(movement.X, -1)
+--		elseif inputObject.KeyCode == Enum.KeyCode.D then
+--			movement = Vector2.new(1, movement.Y)
+--		end
+--	end
+--end)
+--
+--game:GetService("UserInputService").InputChanged:connect(function(inputObject, gameProcessedEvent)
+--	--if not gameProcessedEvent then
+--		if inputObject.KeyCode == Enum.KeyCode.Thumbstick1 then
+--			--Gamepad support because yay
+--			if inputObject.Position.magnitude >= gamepadDeadzone then
+--				movement = Vector2.new(movement.X, inputObject.Position.Y)
+--			else
+--				movement = Vector2.new(movement.X, 0)
+--			end
+--		elseif inputObject.KeyCode == Enum.KeyCode.Thumbstick2 then
+--			if inputObject.Position.magnitude >= gamepadDeadzone then
+--				movement = Vector2.new(inputObject.Position.X, movement.Y)
+--			else
+--				movement = Vector2.new(0, movement.Y)
+--			end
+--		end
+--	--end
+--end)
+--
+---- Input end
+--game:GetService("UserInputService").InputEnded:connect(function(inputObject, gameProcessedEvent)
+--	if inputObject.KeyCode == Enum.KeyCode.W then
+--		if movement.Y == 1 then
+--			movement = Vector2.new(movement.X, 0)
+--		end
+--	elseif inputObject.KeyCode == Enum.KeyCode.A then
+--		if movement.X == -1 then
+--			movement = Vector2.new(0, movement.Y)
+--		end
+--	elseif inputObject.KeyCode == Enum.KeyCode.S then
+--		if movement.Y == -1 then
+--			movement = Vector2.new(movement.X, 0)
+--		end
+--	elseif inputObject.KeyCode == Enum.KeyCode.D then
+--		if movement.X == 1 then
+--			movement = Vector2.new(0, movement.Y)
+--		end
+--	end
+--end)
+
+local force = 0
+local damping = 0
+
+local mass = 0
+
+for i, v in pairs(car:GetChildren()) do
+	if v:IsA("BasePart") then
+		mass = mass + (v:GetMass() * 196.2)
+	end
+end
+
+force = mass * stats.Suspension.Value
+damping = force / stats.Bounce.Value
+
+local bodyVelocity = Instance.new("BodyVelocity", car.Chassis)
+bodyVelocity.velocity = Vector3.new(0, 0, 0)
+bodyVelocity.maxForce = Vector3.new(0, 0, 0)
+
+local bodyAngularVelocity = Instance.new("BodyAngularVelocity", car.Chassis)
+bodyAngularVelocity.angularvelocity = Vector3.new(0, 0, 0)
+bodyAngularVelocity.maxTorque = Vector3.new(0, 0, 0)
+
+local rotation = 0
+
+local function UpdateThruster(thruster)
+	--Make sure we have a bodythrust to move the wheel
+	local bodyThrust = thruster:FindFirstChild("BodyThrust")
+	if not bodyThrust then
+		bodyThrust = Instance.new("BodyThrust", thruster)
+	end
+	--Do some raycasting to get the height of the wheel
+	local hit, position = Raycast.new(thruster.Position, thruster.CFrame:vectorToWorldSpace(Vector3.new(0, -1, 0)) * stats.Height.Value)
+	local thrusterHeight = (position - thruster.Position).magnitude
+	if hit and hit.CanCollide then
+		--If we're on the ground, apply some forces to push the wheel up
+		bodyThrust.force = Vector3.new(0, ((stats.Height.Value - thrusterHeight)^2) * (force / stats.Height.Value^2), 0)
+		local thrusterDamping = thruster.CFrame:toObjectSpace(CFrame.new(thruster.Velocity + thruster.Position)).p * damping
+		bodyThrust.force = bodyThrust.force - Vector3.new(0, thrusterDamping.Y, 0)
+	else
+		bodyThrust.force = Vector3.new(0, 0, 0)
+	end
+	
+	--Wheels
+	local wheelWeld = thruster:FindFirstChild("WheelWeld")
+	if wheelWeld then
+		wheelWeld.C0 = CFrame.new(0, -math.min(thrusterHeight, stats.Height.Value * 0.8) + (wheelWeld.Part1.Size.Y / 2), 0)
+		-- Wheel turning
+		local offset = car.Chassis.CFrame:inverse() * thruster.CFrame
+		local speed = car.Chassis.CFrame:vectorToObjectSpace(car.Chassis.Velocity)
+		if offset.Z < 0 then
+			local direction = 1
+			if speed.Z > 0 then
+				direction = -1
+			end
+			wheelWeld.C0 = wheelWeld.C0 * CFrame.Angles(0, (car.Chassis.RotVelocity.Y / 2) * direction, 0)
+		end
+		wheelWeld.C0 = wheelWeld.C0 * CFrame.Angles(rotation, 0, 0)
+	end
+end
+
+--A simple function to check if the car is grounded
+local function IsGrounded()
+	local hit, position = Raycast.new((car.Chassis.CFrame * CFrame.new(0, 0, (car.Chassis.Size.Z / 2) - 1)).p, car.Chassis.CFrame:vectorToWorldSpace(Vector3.new(0, -1, 0)) * (stats.Height.Value + 0.2))
+	if hit and hit.CanCollide then
+		return(true)
+	end
+	return(false)
+end
+
+--local oldCameraType = camera.CameraType
+--camera.CameraType = cameraType
+
+--spawn(function()
+	while game:GetService("RunService").Heartbeat:wait() and car:FindFirstChild("DriveSeat") and character.Humanoid.SeatPart == car.DriveSeat do
+		--game:GetService("RunService").RenderStepped:wait()
+		if IsGrounded() then
+			if movement.Y ~= 0 then
+				local velocity = humanoidRootPart.CFrame.lookVector * movement.Y * stats.Speed.Value
+				humanoidRootPart.Velocity = humanoidRootPart.Velocity:Lerp(velocity, 0.1)
+				bodyVelocity.maxForce = Vector3.new(0, 0, 0)
+			else
+				bodyVelocity.maxForce = Vector3.new(mass / 2, mass / 4, mass / 2)
+			end
+			local rotVelocity = humanoidRootPart.CFrame:vectorToWorldSpace(Vector3.new(movement.Y * stats.Speed.Value / 50, 0, -humanoidRootPart.RotVelocity.Y * 5 * movement.Y))
+			local speed = -humanoidRootPart.CFrame:vectorToObjectSpace(humanoidRootPart.Velocity).unit.Z
+			rotation = rotation + math.rad((-stats.Speed.Value / 5) * movement.Y)
+			if math.abs(speed) > 0.1 then
+				rotVelocity = rotVelocity + humanoidRootPart.CFrame:vectorToWorldSpace((Vector3.new(0, -movement.X * speed * stats.TurnSpeed.Value, 0)))
+				bodyAngularVelocity.maxTorque = Vector3.new(0, 0, 0)
+			else
+				bodyAngularVelocity.maxTorque = Vector3.new(mass / 4, mass / 2, mass / 4)
+			end
+			humanoidRootPart.RotVelocity = humanoidRootPart.RotVelocity:Lerp(rotVelocity, 0.1)
+			
+			--bodyVelocity.maxForce = Vector3.new(mass / 3, mass / 6, mass / 3)
+			--bodyAngularVelocity.maxTorque = Vector3.new(mass / 6, mass / 3, mass / 6)
+		else
+			bodyVelocity.maxForce = Vector3.new(0, 0, 0)
+			bodyAngularVelocity.maxTorque = Vector3.new(0, 0, 0)
+		end
+		
+		for i, part in pairs(car:GetChildren()) do
+			if part.Name == "Thruster" then
+				UpdateThruster(part)
+			end
+		end
+	end
+	for i, v in pairs(car:GetChildren()) do
+		if v:FindFirstChild("BodyThrust") then
+			v.BodyThrust:Destroy()
+		end
+	end
+	bodyVelocity:Destroy()
+	bodyAngularVelocity:Destroy()
+	--camera.CameraType = oldCameraType
+	script:Destroy()
+--end)
+end))
+LocalScript98.Disabled = true
+ObjectValue99.Name = "Car"
+ObjectValue99.Parent = LocalScript98
+ModuleScript100.Name = "RaycastModule"
+ModuleScript100.Parent = Script97
+table.insert(cors,sandbox(ModuleScript100,function()
+local module = {}
+
+function module.new(startPosition, startDirection)
+	local maxDistance = startDirection.magnitude
+	local direction = startDirection.unit
+	local lastPosition = startPosition
+	local distance = 0
+	local ignore = {}
+	
+	local hit, position, normal
+	
+	repeat
+		local ray = Ray.new(lastPosition, direction * (maxDistance - distance))
+		hit, position, normal = game.Workspace:FindPartOnRayWithIgnoreList(ray, ignore, false, true)
+		if hit then
+			if not hit.CanCollide then
+				table.insert(ignore, hit)
+			end
+		end
+		distance = (startPosition - position).magnitude
+		lastPosition = position
+	until distance >= maxDistance - 0.1 or (hit and hit.CanCollide)
+	return hit, position, normal
+end
+
+return module
+
+end))
+IntValue101.Name = "Regen"
+IntValue101.Parent = Model0
+Script102.Name = "Remover"
+Script102.Parent = Model0
+table.insert(cors,sandbox(Script102,function()
+wait(.1)
+script.Parent.Station:Remove()
+wait(.1)
+script:Remove()
+
+end))
+Script103.Parent = Model0
+table.insert(cors,sandbox(Script103,function()
+system = script.Parent
+
+model = system.Station --
+
+backup = model:Clone()
+
+regen = system.Regen
+
+
+
+function checkRegen()
+
+	if regen.Value == 1 then
+
+		model:remove()
+
+		wait(1)
+
+		model = backup:Clone()
+
+		model.Parent = system
+
+		model:MakeJoints()
+
+	end
+
+end
+
+regen.Changed:connect(checkRegen)
+end))
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = workspace
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end
